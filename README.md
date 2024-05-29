@@ -30,38 +30,20 @@
 
 ## Glueing
 - ### LED and Sensor Bricks
-    
-
 - Hot glue first on brick
-    
 - Place peripheral on layer of glue
-    
 - Finish by covering the rest of peripheral in glue
-    
 - Strain relieved the wires with a drop of hot glue
-    
 - Attached other half of brick by adding superglue to the rim and pressing them together
     
-
-  
-
 - ### Casing
-    
-
 - Superglue the bottom to the top of the case
-    
 - Placed Pico/Peripheral board assembly inside case
-    
 - A drop of hot glue under the Pico to hold it in place
-    
 - Final test  
       
-    
-
 ## Finishing touches
-
 - Pull the wires through the strain relief bars on the case
-    
 - Tie the wires with cable ties
     
 
@@ -69,14 +51,12 @@
 
 # Uploading code onto pico
 
-1. Hold the BOOTSEL button on the pico and plug it into computer
-    
+1. Hold the BOOTSEL button on the pico and plug it into computer    
 2. Pico folder shows up with two files currently inside
-    
+   
+![]images/picosetup_2.png?raw=true
 
-![](https://lh7-us.googleusercontent.com/docsz/AD_4nXenEm-JiRcJj9jZd7FAOEYKqKSzSjX8waA2inIdrs8l_4G9jKmTDEg-tr_tm-wB3n2HoYEPMpv2nEWt-hyifv_CamwGCLX55LzzI7Sl-tEQutpp_ulfcuMKeqa6PC0KXMLx3DRwClMZgeBV2qSG03BkA7pe?key=nh4S3EFSVGo_oavk-5p74g)
-
-3. Drag the UF2 file into the pico folder
+4. Drag the UF2 file into the pico folder
     
 
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXc3I-SO-jQfN9Z0_RbdExrvwaDkxdv54gbH-8bj0e5_XcH103QaZcRwYtRM-XDjXQ7ImZBz5oqgJwFD_Tc2RTlXXIzzgaz-ncwBKKaMzmO5eeIH-z00xyPNgIBveUbfHuqFXSzWMHUTiCibylX15KmODjna?key=nh4S3EFSVGo_oavk-5p74g)

@@ -82,7 +82,7 @@
 - Used Studio 2.0
    - Download Link https://www.bricklink.com/v3/studio/download.page
     
-
+![](images/setup_layer1.png)
 ![](images/setup_layer2.png)
 ![](images/setup_layer3.png)
 ![](images/setup_bottom.png)

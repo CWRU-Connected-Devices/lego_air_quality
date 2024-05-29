@@ -30,17 +30,17 @@
 
 ## Glueing
 - ### LED and Sensor Bricks
-- Hot glue first on brick
-- Place peripheral on layer of glue
-- Finish by covering the rest of peripheral in glue
-- Strain relieved the wires with a drop of hot glue
-- Attached other half of brick by adding superglue to the rim and pressing them together
+	- Hot glue first on brick
+	- Place peripheral on layer of glue
+	- Finish by covering the rest of peripheral in glue
+	- Strain relieved the wires with a drop of hot glue
+	- Attached other half of brick by adding superglue to the rim and pressing them together
     
 - ### Casing
-- Superglue the bottom to the top of the case
-- Placed Pico/Peripheral board assembly inside case
-- A drop of hot glue under the Pico to hold it in place
-- Final test  
+	- Superglue the bottom to the top of the case
+	- Placed Pico/Peripheral board assembly inside case
+	- A drop of hot glue under the Pico to hold it in place
+	- Final test  
       
 ## Finishing touches
 - Pull the wires through the strain relief bars on the case

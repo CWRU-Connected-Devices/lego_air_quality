@@ -54,7 +54,7 @@
 1. Hold the BOOTSEL button on the pico and plug it into computer    
 2. Pico folder shows up with two files currently inside
    
-![]images/picosetup_2.png
+![](images/picosetup_2.png)
 
 4. Drag the UF2 file into the pico folder
     

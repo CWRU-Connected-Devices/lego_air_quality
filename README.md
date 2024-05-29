@@ -23,9 +23,9 @@
 - Flashed using Thonny
 - Tested each kit
 	- Make sure the LED blinks two times and then lights up    
-- Make sure the Neopixel bar works (will cycle a rainbow pattern)
-- Make sure the calibration process finishes - Neopixel bar turns blue and then turns red
-- Make sure the change in luminance on the sensor results in a corresponding change on the Neopixel bar indicator
+	- Make sure the Neopixel bar works (will cycle a rainbow pattern)
+	- Make sure the calibration process finishes - Neopixel bar turns blue and then turns red
+	- Make sure the change in luminance on the sensor results in a corresponding change on the Neopixel bar indicator
     
 
 ## Glueing

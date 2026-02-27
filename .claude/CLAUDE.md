@@ -6,14 +6,13 @@ WS2812B Neopixel bar, housed in 3D-printed LEGO-compatible bricks.
 
 ## Repository Structure
 
-- **Software/** — MicroPython firmware for Raspberry Pi Pico (RP2040)
+- **firmware/** — MicroPython firmware for Raspberry Pi Pico (RP2040)
   - `main.py` is the canonical source; the Pico automatically runs `main.py` on boot
-  - `legobrickscript.py` is a legacy duplicate — pending removal
 - **Models/** — 3D CAD (STL/STEP/SLDPRT) and Eagle CAD PCB design files (EPAPollutionMonV101)
 - **Technical Documentation/** — Build docs, BOM, wiring guide, troubleshooting (docx/xlsx)
 - **Instructor Documentation/** — Student-facing assembly tutorials and technical explanations
 
-## Firmware Architecture (Software/main.py)
+## Firmware Architecture (firmware/main.py)
 
 Single-file MicroPython program with these key sections:
 
@@ -27,9 +26,9 @@ Single-file MicroPython program with these key sections:
 
 ## Deploying to Pico
 
-1. Hold BOOTSEL, plug in Pico, drag a MicroPython UF2 firmware file to the USB drive
-   - `Software/rp2-pico-20210618-v1.16.uf2` is included but is from 2021 — pending decision on whether to replace with a link to the official MicroPython download
-2. Open Thonny, select COM port, save `Software/main.py` to Pico as `main.py`
+1. Hold BOOTSEL, plug in Pico, drag the MicroPython UF2 to the USB drive
+   - Download from https://micropython.org/download/RPI_PICO/
+2. Open Thonny, select COM port, save `firmware/main.py` to Pico as `main.py`
 3. Ctrl+D to reboot — firmware auto-runs
 
 ## License

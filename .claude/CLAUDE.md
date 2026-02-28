@@ -1,16 +1,18 @@
 ## Project Overview
 
 LEGO Air Quality Monitor — an educational STEM kit by Case Western Reserve University (ISSACS).
-A Raspberry Pi Pico reads an analog light/pollution sensor and displays levels on an 8-LED
-WS2812B Neopixel bar, housed in 3D-printed LEGO-compatible bricks.
+Participants build a physical model of an optical air quality sensor: a LEGO brick structure
+channels water vapor between a white LED and a photoreceptor, simulating how particulate matter
+scatters light in a real PM sensor. Readings are displayed on an 8-LED WS2812B Neopixel bar.
 
 ## Repository Structure
 
 - **firmware/** — MicroPython firmware for Raspberry Pi Pico (RP2040)
   - `main.py` is the canonical source; the Pico automatically runs `main.py` on boot
 - **Models/** — 3D CAD (STL/STEP/SLDPRT) and Eagle CAD PCB design files (EPAPollutionMonV101)
-- **Technical Documentation/** — Build docs, BOM, wiring guide, troubleshooting (docx/xlsx)
-- **Instructor Documentation/** — Student-facing assembly tutorials and technical explanations
+- **docs/** — Audience-organized documentation (kit-builder, instructor, participant)
+  - `docs/kit-builder.md` contains the original README assembly/setup content (image paths need fixing)
+  - `Technical Documentation/` and `Instructor Documentation/` are legacy — being migrated to `docs/`
 
 ## Firmware Architecture (firmware/main.py)
 
@@ -39,8 +41,7 @@ Hardware design files and educational content may move to CC BY 4.0 in the futur
 ## Current Status
 
 This repo is being prepared for public release. In progress:
-- Documentation is being migrated from `.docx`/`.xlsx` to Markdown
-- `legobrickscript.py` has been removed in favor of `main.py`
+- Documentation is being migrated from `.docx`/`.xlsx` to Markdown under `docs/`
 - Hardware files (`Models/EPAPollutionMonV101/`) are not yet committed
 
 ## Key Constraints

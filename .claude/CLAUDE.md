@@ -40,8 +40,7 @@ Hardware design files and educational content may move to CC BY 4.0 in the futur
 
 This repo is being prepared for public release. In progress:
 - Documentation is being migrated from `.docx`/`.xlsx` to Markdown
-- `legobrickscript.py` is pending removal in favor of `main.py`
-- UF2 firmware inclusion is under review
+- `legobrickscript.py` has been removed in favor of `main.py`
 - Hardware files (`Models/EPAPollutionMonV101/`) are not yet committed
 
 ## Key Constraints

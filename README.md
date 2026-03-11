@@ -29,3 +29,7 @@ we ask that you credit **CWRU ISSACS** and include our logo on participant-facin
 
 MIT License — Copyright (c) 2021 Case Western Reserve University Institute for Smart, Secure and Connected
 Systems. See [LICENSE](LICENSE) for details.
+
+---
+
+LEGO is a trademark of the LEGO Group, which does not sponsor, authorize, or endorse this project.
